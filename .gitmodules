@@ -1,11 +1,11 @@
 [submodule "images"]
 	path = images
-	url = https://github.com/LostMpodis/images.git
-    branch = master
+	url = https://github.com/p17anto2/images-1.git
+	branch = demo-branch
 [submodule "_gallery"]
 	path = _gallery
-	url = https://github.com/LostMpodis/_gallery.git
-	branch = master
+	url = https://github.com/p17anto2/_gallery-1.git
+	branch = demo-branch
 [submodule "_includes/extras"]
 	path = _includes/extras
 	url = https://github.com/LostMpodis/extras.git

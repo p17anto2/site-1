@@ -12,7 +12,8 @@
 5. Συνδέεις όσα submodule σκοπεύεις να αλλάξεις με το δικό σου fork του site.
 > :bulb: Για να αλλάξεις που δείχνει ένα submodule του αποθετηρίου:
 > ```
-> git submodule set-url <path για το φάκελο του submodule> <url του submodule> -b <branch του αποθετηρίου του submodule (προαιρετικά)>
+> git submodule set-url <path για το φάκελο του submodule> <url του submodule>
+> git submodule set-branch -b <branch του αποθετηρίου του submodule> <path για το φάκελο του submodule> # Προαιρετικά
 > ```
 > Για να σιγουρευτείς ότι οι αλλαγές είναι σωστές:
 > ```
@@ -20,14 +21,15 @@
 > type .gitmodules # Windows
 > ```
 6. Συνδέεις το Netlify με το demo-branch του site.
-7. Κάνεις τις αλλαγές.
+7. Αλλάζεις στο \_config.yml το url με το δικό σου.
+8. Κάνεις τις αλλαγές.
 > :bulb: Πριν κάνεις git push για να δοκιμάσεις το site, βεβαιώσου ότι έχεις κάνει git push σε όλα τα αποθετήρια που έκανες αλλαγή και, στο βασικό αποθετήριο:
 > ```
 > git submodule update --remote
 > ```
 > για να ανανεωθούν τα submodule.
-8. Όταν βεβαιωθείς ότι όλα είναι σωστά, κάνε `git checkout master` για να πας στο master branch, και από εκεί `git checkout demo-branch <τα αρχεία που έχεις αλλάξει>`. 
-9. Τέλος, Pull Request.
+9. Όταν βεβαιωθείς ότι όλα είναι σωστά, κάνε `git checkout master` για να πας στο master branch, και από εκεί `git checkout demo-branch <τα αρχεία που έχεις αλλάξει>`. 
+10. Τέλος, Pull Request.
 
 # License
 

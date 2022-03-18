@@ -8,6 +8,7 @@ slides:
   - ibm2471
   - windows-mobile
   - pygmalion
+  - inferno
   - touch-develop
   - android-emulator
   - grail-flow
@@ -20,6 +21,7 @@ slides:
   - arduino-lilypad
   - arduino-shield
   - pebble-hifi
+  - gtk
   - reactable-music
   - reactivision-simulator
   - reactable-fountain
